@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+  background-color: #f9f9f9;
+  background: linear-gradient(to bottom right, #dd58d6 50%, #e4a5ff 50%);
+}

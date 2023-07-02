@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Card from "./components/Card";
+import styles from "./App.module.css";
+import Header from "./components/Header";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
+    <>
+      <Header />
+      <div className={styles.container}>
+        <Card
+          image="leetmate.png"
+          name="LeetMate"
+          description="Compare the recently solved 20 Problems"
+          href="https://leet-mate-sanketh.vercel.app/"
           target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        />
+        <Card
+          image="leetgraph.png"
+          name="LeetGraph"
+          description="Compare all ratings from the Contests"
+          href="#"
+        />
+        <Card
+          image="leetcompare.png"
+          name="LeetCompare"
+          description="Compare based on Total Problems solved"
+          href="#"
+        />
+      </div>
+    </>
   );
-}
+};
 
 export default App;

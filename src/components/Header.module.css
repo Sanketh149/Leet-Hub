@@ -1,0 +1,28 @@
+.app__navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdfdfd;
+  padding: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.leethub {
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.leethub svg {
+  margin-right: 10px;
+}
+
+.logo {
+  width: 60px; /* Adjust the width as needed */
+  height: 60px;
+}
