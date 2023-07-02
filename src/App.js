@@ -13,7 +13,6 @@ const App = () => {
           name="LeetMate"
           description="Compare the recently solved 20 Problems"
           href="https://leet-mate-sanketh.vercel.app/"
-          target="_blank"
         />
         <Card
           image="leetgraph.png"
