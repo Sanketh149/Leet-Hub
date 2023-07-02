@@ -18,7 +18,7 @@ const App = () => {
           image="leetgraph.png"
           name="LeetGraph"
           description="Compare all ratings from the Contests"
-          href="#"
+          href="https://leet-graphs-sanketh.vercel.app/"
         />
         <Card
           image="leetcompare.png"
