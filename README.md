@@ -1,3 +1,5 @@
+<img width="960" alt="image" src="https://github.com/Sanketh149/Leet-Hub/assets/89764074/37e4cf70-263e-4fd4-a8e3-8a8b02032a7b">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
